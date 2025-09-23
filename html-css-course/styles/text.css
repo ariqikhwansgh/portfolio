@@ -1,0 +1,48 @@
+p{
+    margin-left: 20px;
+}
+.video-title{
+    font-family: Bitcount Grid Double Ink;
+    font-size: 100px;
+    font-weight: bold;
+    text-align: left;
+    line-height: 80px;
+    margin-bottom: 0px;
+    margin-top: 30px;
+}
+
+.view-txt{
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px; 
+    color: rgb(78, 69, 69);
+}
+
+.name-txt{
+    font-family: 'Times New Roman', Times, serif;
+    margin-top: 20px;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.subs-txt{
+    font-family: Arial;
+    font-size: 15px;
+    background-color: rgb(255, 55, 55);
+    color: white;
+    margin-left:0;
+    margin-top:5px;
+    padding-top:20px;
+    padding-bottom:20px;
+    padding-left: 20px;
+    text-align: left;
+}
+
+.link-txt{
+    color: white;
+    text-decoration: none;
+}
+
+.link-txt:hover{
+    text-decoration: underline;
+}
