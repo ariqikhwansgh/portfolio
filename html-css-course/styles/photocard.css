@@ -1,8 +1,9 @@
 p{
     font-family: Arial;
 }
+
 .profile-picture{
-    width: 170px;
+    width: 100%;
 }
 
 .name{
@@ -19,6 +20,12 @@ p{
     margin-left: 10px;
 }
 
+.mutual-profile-picture{
+    width:50px;
+    border-radius: 50px;
+    margin-left: 10px;
+    vertical-align: middle;
+}
 .add-friend{
     color: white;
     background-color: rgb(58, 120, 190);
@@ -38,20 +45,27 @@ p{
 }
 
 .profile-card{
-    border:solid;
-    border-color: rgb(230, 230, 230);
-    width: 170px;
-    border-width: 1px;
-    transition: box-shadow 0.2s;
-    margin-top: 10px;
-    margin-left: 10px;
-    margin-right: 10px;
-    display: inline-block;
-    transition: margin-top 0.3s,
-    margin-left 0.3s,
-    box-shadow 0.3s;                
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
+    transition:box-shadow 0.3s;                
 }
 
 .profile-card:hover{
     box-shadow: 0px 1px 5px rgba(0, 0, 0, 0.5);
 }
+
+.card-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 20px;
+}
+
+.mutual-container{
+    display: grid;
+    grid-template-columns: 50px 1fr;
+    column-gap: 10px;
+    align-items: center;
+}
+
+
+
+
