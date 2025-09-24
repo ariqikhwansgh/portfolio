@@ -1,0 +1,56 @@
+.container-12e{
+    border: solid;
+    border-color: rgb(207, 207, 207);
+    border-width: 1px;
+    border-radius: 10px;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 300px;
+}
+
+.navigation-section{
+    display: flex;
+    flex-direction:row;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 3px;
+    margin-bottom: 3px;
+}
+
+.notification-bubble{
+    background-color: rgb(54, 141, 255);
+    color: white;
+    border: none;
+    border-radius: 10px;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+
+.container-12f{
+    border: none;
+    border-radius: 10px;
+    background-color: rgb(143, 22, 143);
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    max-width: 1000px;
+    margin-top: 100px;
+    display: flex;
+    flex-direction: start;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.search-box{
+    padding-top: 7px;
+    padding-bottom:7px;
+    padding-left: 7px;
+    padding-right: 7px;
+    border: none;
+    border-radius: 10px;
+    max-width: 300px;;
+    flex: 1;
+}
